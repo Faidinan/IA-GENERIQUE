@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", serif;
+    background-color: #e2e2e2;
+}
+
+header{
+    background-image: url(IMAGES/IM02.jpg);
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+
+header h1{
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    text-shadow: 0 5px 3px rgb(23, 23, 122);
+}
+
+h3, h4{
+    padding: 15px;
+    text-transform: uppercase;
+    color: orangered;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.def, .role, .procedure, .consequence{
+    background-color: white;
+    box-shadow: 0 2px 4px #aaa9a9;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+}
+
+.def{
+    margin-top: 20px;
+    transform: translateX(18px);
+}
+
+p{
+    padding: 15px;
+}
+
+img{
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    padding: 25px;
+}
+
+.container .role, .procedure{
+    margin: 15px;
+    /* padding: 25px; */
+}
+
+.consequence{
+    display: flex;
+    width: 100%;
+    height: 95vh;
+    border-radius: 5px;
+    padding: auto;
+}
+
+.consequence .avantage, .consequence .defis{
+    padding: 50px;
+}
+
+.avantage, .defis {
+    margin: 50px;
+}
+
+span{
+    color: orangered;
+    font-weight: bolder;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.conclusion{
+    background-color: white;
+    box-shadow: 0 2px 4px #aaa9a9;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+footer{
+    background-color: white;
+    height: 5vh;
+    color: orangered;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
