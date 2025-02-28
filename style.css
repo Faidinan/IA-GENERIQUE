@@ -79,11 +79,11 @@ img{
 }
 
 .consequence .avantage, .consequence .defis{
-    padding: 50px;
+    padding: 25px;
 }
 
 .avantage, .defis {
-    margin: 25px;
+    margin: 50px;
 }
 
 span{
